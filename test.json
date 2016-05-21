@@ -1,0 +1,18 @@
+{
+  "id": "123",
+  "firstName": "John",
+  "lastName": "Doe",
+  "address": {
+    "streetLines": [
+      "123 Fake Str.",
+      "Appartment 4"
+    ],
+    "city": "Springfield",
+    "state": "IL",
+    "zipcode": 53500
+  },
+  "siblings": [
+    "124",
+    "125"
+  ]
+}

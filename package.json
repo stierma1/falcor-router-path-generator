@@ -1,13 +1,13 @@
 {
   "name": "falcor-router-path-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Code generator for falcor router paths",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin":{
-    "falcor-router-path-generator" : "./bin/falcor-router-path-generator"
+    "falcor-router-path-generator" : "./bin/falcor-router-path-generator.js"
   },
   "repository": {
     "type": "git",
