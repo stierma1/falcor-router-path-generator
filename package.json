@@ -1,0 +1,26 @@
+{
+  "name": "falcor-router-path-generator",
+  "version": "1.0.0",
+  "description": "Code generator for falcor router paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "falcor-router-path-generator" : "./bin/falcor-router-path-generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/falcor-router-path-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stierma1/falcor-router-path-generator/issues"
+  },
+  "homepage": "https://github.com/stierma1/falcor-router-path-generator#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "traverse": "^0.6.6"
+  }
+}
