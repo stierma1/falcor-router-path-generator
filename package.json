@@ -1,6 +1,6 @@
 {
   "name": "falcor-router-path-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Code generator for falcor router paths",
   "main": "lib/main.js",
   "scripts": {

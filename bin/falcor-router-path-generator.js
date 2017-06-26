@@ -10,6 +10,7 @@ program
   .option('-p, --prefix [prefix]', 'Prefix for the falcor routes, is required')
   .option('-i, --input [input]', 'Path to json obj, is required')
   .option('-o, --output [output]', 'Path to output the generated routes, is optional')
+  .option('-l, --withLength', 'Add length routes for all arrays')
   .parse(process.argv);
 
 if(!program.prefix){
@@ -24,7 +25,7 @@ var fullPath = path.join(process.cwd(), program.input);
 
 var obj = require(fullPath);
 
-var pathsGenerated = pathGen(program.prefix, obj);
+var pathsGenerated = pathGen(program.prefix, obj, program.withLength);
 
 if(program.output){
   var fullOutPath = path.join(process.cwd(), program.output);
